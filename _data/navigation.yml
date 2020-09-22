@@ -1,12 +1,57 @@
 # main links
 main:
   - title: "The AOT Group"
-    url: #
+    url: /
   - title: "About AOT"
-    url: /about-aot/
+    url: /about/
   - title: "Operating Divisions"
-    url: /year-archive/
+    url: /operating-divisions/
   - title: "Contact Us"
-    url: /collection-archive/
-  - title: "Sitemap"
-    url: /sitemap/
+    url: /contact/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+
+# Sub nav links
+docs:
+  - title: About AOT
+    children:
+      - title: "The AOT Group Today"
+        url: /#/
+      - title: "History of the AOT Group"
+        url: /#/
+      - title: "Our Values"
+        url: /#/
+      - title: "Our Achievements & Awards"
+        url: /#/
+      - title: "AOT Newsroom"
+        url: /#/
+      - title: "Memberships"
+        url: /#/
+      - title: "Careers"
+        url: /#/
+
+  - title: Operating Divisions
+    children:
+      - title: "Configuration"
+        url: /docs/configuration/
+      - title: "Navigation"
+        url: /docs/navigation/
+      - title: "UI Text"
+        url: /docs/ui-text/
+      - title: "Authors"
+        url: /docs/authors/
+      - title: "Layouts"
+        url: /docs/layouts/
+
+  - title: Agent Brand Logins
+    children:
+      - title: "AOT Online (Inbound)"
+        url: http://www.aotonline.net/index.php
+      - title: "ETA Online (Inbound)"
+        url: http://www.booketaonline.com/index.php
+      - title: "Sunlover Holidays"
+        url: https://www.agents.sunloverholidays.com.au/index.php
+      - title: "AOT Hotels"
+        url: https://www.aothotels.com.au/login
+      # - title: "Air New Zeland Holidays"
+      #   url: #
